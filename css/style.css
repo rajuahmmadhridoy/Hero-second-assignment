@@ -19,8 +19,8 @@ body{
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    padding: 12px 15px;
-    font-size: 20px;
+    padding: 9px 13px;
+    font-size: 13px;
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     background: #95AF30;
@@ -41,9 +41,11 @@ p {
     padding: 55px 0;
 }
 .section-title h2 {
-    font-size: 45px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
     color: #2e3940;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 /* menu-area */
@@ -79,7 +81,7 @@ a.nav-link {
     margin-top: 47px;
 }
 .about-info h1 {
-    font-size: 68px;
+    font-size: 50px;
     font-weight: 700;
     color: #FABE4C;
     text-transform: uppercase;
@@ -129,7 +131,7 @@ h3.card-title {
 .price h2 {
     color: #FABE4C;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* best sell area */
@@ -195,7 +197,7 @@ h3.card-title {
     width: 100%;
 }
 .single-service-text h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
 .single-service-text p {
@@ -328,11 +330,14 @@ button.sub-btn {
         margin-top: 20px;
     }
     .sub-text h3 {
-        font-size: 70px;
+        font-size: 48px;
         font-weight: 600;
     }
     li.nav-item {
         font-size: 33px;
+    }
+    .about-info h1 {
+        font-size: 74px;
     }
 }
 
@@ -344,7 +349,7 @@ button.sub-btn {
         font-size: 25px;
     }
     .about-info h1 {
-        font-size: 54px;
+        font-size: 48px;
         margin-bottom: 29px;
         margin-top: 117px;
         line-height: 77px;
@@ -362,10 +367,10 @@ button.sub-btn {
         font-size: 30px;
     }
     .best-seller-info h4 {
-        font-size: 33px;
+        font-size: 20px;
     }
     .single-service-text h4 {
-        font-size: 35px;
+        font-size: 20px;
     }
     .sub-text h3 {
         font-size: 40px;
@@ -379,6 +384,9 @@ button.sub-btn {
     .best-seller-img img {
         height: 295px;
     }
+    .about-info h1 {
+        font-size: 54px;
+    }
 }
 @media (max-width: 1200px){
     img.card-img-top {
@@ -386,20 +394,18 @@ button.sub-btn {
         height: 330px;
     }
     .logo {
-        width: 50%;
+        width: 35%;
     }
-    p.card-text {
-        font-size: 20px;
-    }
-    p{
-        font-size: 23px;
+    p {
+        font-size: 16px;
     }
     h3.card-title {
-        font-size: 30px;
+        font-size: 20px;
     }
     .section-title h2 {
-        font-size: 55px;
+        font-size: 30px;
         font-weight: 600;
+        margin-bottom: 20px;
     }
     .best-seller-img h4 {
         font-size: 18px;
@@ -408,14 +414,14 @@ button.sub-btn {
         font-size: 22px;
     }
     .service-bg {
-        margin-top: 95px;
+        margin-top: 0;
     }
     .social-link ul li a {
         font-size: 28px;
         margin-top: 20px;
     }
     a.nav-link {
-        font-size: 22px;
+        font-size: 15px;
     }
 
 }
@@ -452,12 +458,13 @@ button.sub-btn {
         width: 100%;
     }
     .service-bg img {
-        margin-left: 83px;
+        margin-left: 0;
+        width: 90%;
         margin-bottom: 46px;
     }
     .best-sell {
         overflow: hidden;
-        margin-bottom: 87px;
+        margin-bottom: 0;
     }
     .best-seller-img {
         height: 481px;
@@ -546,6 +553,12 @@ button.sub-btn {
     .best-seller-img img {
         height: 422px;
         margin-top: 102px;
+    }
+    .about-img {
+        margin-left: 30px;
+    }
+    .sub-text h3 {
+        font-size: 37px;
     }
 }
 
