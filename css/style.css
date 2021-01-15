@@ -3,11 +3,9 @@ body{
     margin-left: 0 auto;
     margin-right: 0 auto;
 }
-
-/* common css */
 .btn {
     display: inline-block;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     color: #fff;
     text-align: center;
@@ -19,575 +17,83 @@ body{
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    padding: 9px 13px;
-    font-size: 13px;
-    border-radius: 0.25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    background: #95AF30;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-.btn i {
-    margin-right: 5px;
-}
-/* .buy .btn {
-    padding: 11px 13px;
-} */
-p {
+    padding: 10px 12px;
     font-size: 15px;
-    color: #757575;
+    border-radius: 5px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #3B4BE2;
 }
-.section-padding{
-    padding: 55px 0;
-}
-.section-title h2 {
-    font-size: 30px;
-    font-weight: 600;
-    color: #2e3940;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+a.btn i {
+    margin-right: 8px;
 }
 
-/* menu-area */
+section{
+    margin-top: 100px;
+}
+
+/* Header-area */
 .logo {
     width: 35%;
 }
-.logo img {
+a.navbar-brand img {
     width: 100%;
 }
-.menu-fix {
+nav.nav-fix{
     position: fixed;
+    z-index: 9;
     top: 0;
     left: 0;
     right: 0;
-    padding: 0;
-    z-index: 5;
-    background: #fffbf0;
 }
-li.nav-item {
-    color: #222;
-    font-weight: 600;
-}
-a.nav-link {
-    font-size: 20px;
-}
-/* about-area */
 
-.about{
-    background: #FFFBF0;
-}
-.about-info {
-    padding-right: 0;
-    margin-top: 47px;
-}
-.about-info h1 {
-    font-size: 50px;
-    font-weight: 700;
-    color: #FABE4C;
-    text-transform: uppercase;
-}
-.about-info h1 > span{
-    color: #363958;
-}
+/* About-area */
+
 .about-img {
-    width: 80%;
-    margin-bottom: 40px;
-    margin-top: 65px;
-}
-.about-img img{
-    width: 100%;
-}
-
-
-.product-card {
-    border: none;
-    box-shadow: 8px 8px 25px lightgrey;
-}
-img.card-img-top {
     width: 90%;
-    height: 380px;
-}
-.card-img-bg {
-    background: #F1F1F1;
-    border-radius: 10px;
-    padding: 15px 0;
-}
-.card-img {
-    padding: 10px;
-}
-.card-img {
-    padding: 10px;
-}
-.card-product-footer {
-    border-top: none;
-    background: #fff;
-    margin-bottom: 10px;
-}
-h3.card-title {
-    font-size: 25px;
-    font-weight: 700;
-    color: #363958;
-}
-.price h2 {
-    color: #FABE4C;
-    font-weight: 700;
-    font-size: 25px;
-}
-
-/* best sell area */
-.best-sell-area{
-    background: #fff;
-    margin-bottom: 100px;
-}
-
-.best-sell {
-    /* padding: 15px; */
-}
-.section-title-best h3 {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
-}
-.section-title-best p {
-    color: #fff;
-    font-size: 15px;
-}
-.best-seller-img {
-    width: 100%;
-    background: #f2f3f5;
-    padding: 5px 8px;
-}
-.best-seller-img img {
-    height: 240px;
-}
-.best-seller-img p {
-    color: #fff;
-    background: pind;
-    background: hotpink;
-    display: inline-block;
-    border-radius: 4px;
-    padding: 1px 3px;
-}
-.best-seller-img h4 {
-    color: #667593;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 40px;
-}
-.best-seller-info h5 {
-    margin-top: 15px;
-    font-size: 20px;
-    color: #677591;
-}
-.best-seller-info h4 {
-    color: #b8e0e2;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-
-
-
-/* service area */
-.single-service-img {
-    width: 23%;
-    margin-right: 12px;
-}
-.single-service-img img{
-    width: 100%;
-}
-.single-service-text h4 {
-    font-size: 20px;
-    font-weight: 500;
-}
-.single-service-text p {
-    margin-bottom: 0;
-}
-.single-service {
-    box-shadow: 7px 7px 20px lightgrey;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-.service-bg {
-    width: 90%;
-    margin-left: 40px;
-}
-.service-bg img{
-    width: 100%;
-}
-
-
-/* subscribe area */
-.subscriver-area{
-    margin-top: 80px;
-    background: #fffbf0;
-}
-.sub-text {
-    padding: 0 43px;
-}
-.sub-text h3 {
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-.subs{
-    position: relative;
-}
-input.sub-form {
-    width: 100%;
-    height: 40px;
-    border: 1px solid lightgray;
-    padding: 30px 32px;
-    border-radius: 4px;
-    font-size: 20px;
-}
-button.sub-btn {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    font-size: 20px;
-    border: 0;
-    background: #95AF30;
-    color: #fff;
-    padding: 0 17px;
-}
-
-.social-link ul li {
-    list-style: none;
-    color: gray;
-}
-.social-link ul li a {
-    padding: 9px 14px;
-    color: gray;
-    display: block;
-}
-.social-site {
-    padding-left: 0;
-}
-
-/* coppy-right-area */
-.coppy-right-area{
-    background:#222222;
-    height: 30px;
-}
-.coppy-right-area p {
-    margin-bottom: 0;
-    color: #fff;
-    font-size: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* Media-quare */
-@media(min-width:1501px){
-    p {
-        font-size: 28px;
-    }
-    .section-title h2 {
-        font-size: 70px;
-    }
-    .btn {
-        color: #fff;
-        padding: 15px 20px;
-        font-size: 30px;
-        }
-    .logo {
-        width: 30%;
-    }
-    .about-info {
-        margin-top: 136px;
-    }
-    h3.card-title {
-        font-size: 35px;
-    }
-    .best-seller-img h4 {
-        font-size: 20px;
-    }
-    .best-seller-info h5 {
-        font-size: 28px;
-    }
-    .best-seller-info h4 {
-        font-size: 30px;
-    }
-    .price h2 {
-        font-size: 50px;
-    }
-    .single-service-text h4 {
-        font-size: 35px;
-    }
-    .social-link ul li {
-        font-size: 30px;
-        margin-top: 20px;
-    }
-    .sub-text h3 {
-        font-size: 48px;
-        font-weight: 600;
-    }
-    li.nav-item {
-        font-size: 33px;
-    }
-    .about-info h1 {
-        font-size: 74px;
-    }
-}
-
-
-
-
-@media (max-width: 1500px){
-    p {
-        font-size: 25px;
-    }
-    .about-info h1 {
-        font-size: 48px;
-        margin-bottom: 29px;
-        margin-top: 117px;
-        line-height: 77px;
-    }
-    h3.card-title {
-        font-size: 30px;
-    }
-    .best-seller-img {
-        width: 100%;
-    }
-    .best-seller-img h4 {
-        font-size: 25px;
-    }
-    .best-seller-info h5 {
-        font-size: 30px;
-    }
-    .best-seller-info h4 {
-        font-size: 20px;
-    }
-    .single-service-text h4 {
-        font-size: 20px;
-    }
-    .sub-text h3 {
-        font-size: 40px;
-    }
-    a.nav-link {
-        font-size: 25px;
-    }
-    .best-seller-img {
-        margin-top: 37px;
-    }
-    .best-seller-img img {
-        height: 295px;
-    }
-    .about-info h1 {
-        font-size: 54px;
-    }
-}
-@media (max-width: 1200px){
-    img.card-img-top {
-        width: 95%;
-        height: 330px;
-    }
-    .logo {
-        width: 35%;
-    }
-    p {
-        font-size: 16px;
-    }
-    h3.card-title {
-        font-size: 20px;
-    }
-    .section-title h2 {
-        font-size: 30px;
-        font-weight: 600;
-        margin-bottom: 20px;
-    }
-    .best-seller-img h4 {
-        font-size: 18px;
-    }
-    .best-seller-info h5 {
-        font-size: 22px;
-    }
-    .service-bg {
-        margin-top: 0;
-    }
-    .social-link ul li a {
-        font-size: 28px;
-        margin-top: 20px;
-    }
-    a.nav-link {
-        font-size: 15px;
-    }
-
-}
-@media (max-width: 992px){
-
-    .subscribe-offset {
-        margin-left: 189px;
-    }
-    .about-info h1 {
-        font-size: 37px;
-    }
-    .about-info {
-        padding-right: 21px;
-    }
-    img.card-img-top {
-        width: 100%;
-        height: 245px;
-    }
-    
-    .single-service.d-flex.align-items-center {
-        flex: none;
-    }
-    .btn {
-        padding: 9px 5px;
-        font-size: 15px;
-    }
-    .single-service-text h4 {
-        font-size: 23px;
-    }
-    .best-seller-img {
-        height: 233px;
-    }
-    .service-bg {
-        width: 100%;
-    }
-    .service-bg img {
-        margin-left: 0;
-        width: 90%;
-        margin-bottom: 46px;
-    }
-    .best-sell {
-        overflow: hidden;
-        margin-bottom: 0;
-    }
-    .best-seller-img {
-        height: 481px;
-    }
-    .best-seller-img {
-        height: 624px;
-    }
-    .best-seller-img img {
-        height: 399px;
-        margin-top: 73px;
-    }
-    .logo {
-        width: 43%;
-    }
-    a.nav-link {
-        font-size: 20px;
-    }
-    
-}
-@media (max-width: 768px){
-    .logo {
-        width: 50%;
-    }
-    p{
-        font-size: 20px;
-    }
-    .col-sm-4 {
-        padding: 0 3px;
-    }
-    .about-info {
-        margin-bottom: 55px;
-    }
-    .about-info {
-        padding-right: 0;
-    }
-    .about-info h1 {
-        font-size: 29px;
-    }
-    img.card-img-top {
-        width: 85%;
-        height: 380px;
-    }
-    .card-img {
-        padding: 4px;
-    }
-    .btn {
-        padding: 20px 40px;
-    }
-    .price h2 {
-        font-weight: 700;
-        font-size: 55px;
-    }
-    .subscribe-offset {
-        margin-left: 0;
-    }
-    .about-info h1 {
-        font-size: 56px;
-    }
-    .best-seller-img {
-        height: 687px;
-    }
-    .best-sell {
-        margin-bottom: 20px;
-    }
-    img.card-img-top {
-        width: 80%;
-        height: 380px;
-    }
-    .best-seller-img h4 {
-        font-size: 27px;
-        margin-top: 16px;
-    }
-    .best-seller-info h5 {
-        margin-top: 22px;
-        font-size: 21px;
-    }
-    .best-seller-info h4 {
-        font-size: 30px;
-    }
-    .single-service-text h4 {
-        font-size: 28px;
-    }
-    p {
-        font-size: 22px;
-    }
-    .best-seller-img img {
-        height: 422px;
-        margin-top: 102px;
-    }
-    .about-img {
-        margin-left: 30px;
-    }
-    .sub-text h3 {
-        font-size: 37px;
-    }
-}
-
-
-
-
-@media (max-width: 576px){
-img.card-img-top {
-    width: 90%;
-    height: 450px;
-}
-h3.card-title {
-    font-size: 35px;
 }
 .about-img img {
-    margin-left: 50px;
+    width: 100%;
 }
-.best-seller-img h4 {
-    font-size: 20px;
+.about-info {
+    margin-top: 40px;
 }
-.best-seller-info h5 {
-    font-size: 25px;
-}
-.best-seller-info h4 {
-    font-size: 25px;
-}
-.sub-text {
-    padding: 0;
+.about-info h2 {
+    font-size: 50px;
+    color: #FA804C;
+    font-weight: 700;
+    padding-right: 95px;
+    text-transform: uppercase;
 }
 
+/* CASUAL SHOES */
+.casual-card {
+    border: 0;
+    box-shadow: 10px 10px 40px lightgrey;
+    border-radius: 5px;
+}
+.casual-img {
+    background: gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 9px;
+}
+.casual-img img {
+    width: 100%;
+    height: 266px;
+}
+.card-footer {
+    background: none;
+    border-top: 0;
+}
 
+/* Service-area */
+.service-img img {
+    width: 100%;
+}
+
+.sevice-bg {
+    width: 89%;
+}
+.sevice-bg img {
+    width: 89%;
 }
